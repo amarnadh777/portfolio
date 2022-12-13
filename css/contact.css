@@ -1,0 +1,66 @@
+body{
+    background: #201c24;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact
+{
+    display: flex;
+    position: absolute; 
+    top: 20%;
+    left: 35%;
+}
+.el{
+    margin: 10px;
+}
+.forms
+{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+ 
+}
+ul{
+    list-style: none;
+    
+}
+ul li 
+{
+    margin: 10px;
+}
+ul li input[type="text"]
+{
+    width: 800px;
+    height: 40px;
+    background: none;
+    border: 1px solid  white;
+}
+ul li input[type="text"]:nth-child(4)
+{
+    width: 800px;
+    height: 100px;
+    background: none;
+    border: 1px solid  white;
+}
+ul li input[type="submit"]
+{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+h2
+{
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    border-bottom: 1px solid  white;
+}
+h5{
+   font-size: 12px;
+}

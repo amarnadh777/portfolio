@@ -1,0 +1,39 @@
+body
+{
+    background: #201c24;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading
+{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    font-size: 40px;
+}
+nav 
+{
+  float: right;
+  margin-right: 100px;
+}
+nav ul li
+{
+  display: inline-block;
+
+  
+}
+nav ul li a
+{
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+
+}
+nav ul li a:hover
+{
+  border-bottom: 3px solid white;
+}
+nav ul li a:active
+{
+  border-bottom: 3px solid  blue;
+}
